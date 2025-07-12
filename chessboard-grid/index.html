@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chess Board (Grid)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        #chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+            gap: 0;
+            margin: 20px auto;
+            width: fit-content;
+            border: 2px solid #333;
+        }
+
+        .chess-cell {
+            width: 60px;
+            height: 60px;
+            box-sizing: border-box;
+        }
+
+        .black {
+            background-color: black;
+        }
+
+        .white {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chess Board</h1>
+    <div id="chessboard"></div>
+
+    <script>
+        const board = document.getElementById('chessboard');
+        for (let row = 0; row < 8; row++) {
+            for (let col = 0; col < 8; col++) {
+                const cell = document.createElement('div');
+                cell.className = 'chess-cell ' + ((row + col) % 2 === 0 ? 'black' : 'white');
+                board.appendChild(cell);
+            }
+        }
+    </script>
+</body>
+
+</html>
