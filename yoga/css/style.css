@@ -1,10 +1,16 @@
-/* Base Styles */
+/* =======================
+   Base Styles
+========================== */
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f4;
     color: #333;
     line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -23,14 +29,18 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Container */
+/* =======================
+   Container
+========================== */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
-/* Header */
+/* =======================
+   Header
+========================== */
 .site-header {
     background: #fff;
     padding: 1rem 0;
@@ -57,7 +67,20 @@ a:hover {
     font-weight: 500;
 }
 
-/* Hero Section */
+.nav-links a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a.active {
+    color: #ffffff;
+    background-color: #4b0082;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+}
+
+/* =======================
+   Hero Section (Index)
+========================== */
 .hero {
     background: url('../images/hero-yoga.png') center/cover no-repeat;
     height: 80vh;
@@ -110,13 +133,17 @@ a:hover {
     background: #6fa88b;
 }
 
-/* Intro */
+/* =======================
+   Intro Section
+========================== */
 .intro {
     padding: 3rem 0;
     text-align: center;
 }
 
-/* Quick Links */
+/* =======================
+   Quick Links
+========================== */
 .quick-links .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -138,7 +165,9 @@ a:hover {
     transform: translateY(-5px);
 }
 
-/* Footer */
+/* =======================
+   Footer
+========================== */
 .site-footer {
     background: #fff;
     text-align: center;
@@ -148,73 +177,145 @@ a:hover {
     border-top: 1px solid #eee;
 }
 
-/* Contact Page */
-
-/* Contact Hero Section */
+/* =======================
+   Contact Page
+========================== */
 .contact-hero {
-  background: url('../images/contact-bg.jpg') center/cover no-repeat;
-  height: 60vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+    background: url('../images/contact-bg.jpg') center/cover no-repeat;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .contact-hero .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 3rem;
-  text-align: center;
-  width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
 }
 
 .contact-hero h2 {
-  font-size: 2.5rem;
-  font-family: 'Lora', serif;
-  margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Lora', serif;
+    margin-bottom: 0.5rem;
 }
 
 .contact-hero p {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
-/* Contact Form */
 .contact-form-section {
-  padding: 3rem 0;
-  background-color: #fdfdfb;
+    padding: 3rem 0;
+    background-color: #fdfdfb;
 }
 
 .contact-form {
-  max-width: 600px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
 .contact-form label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
 
 .contact-form button {
-  background-color: #82b29a;
-  color: white;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #82b29a;
+    color: white;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: #6fa88b;
+    background-color: #6fa88b;
+}
+
+/* =======================
+   Classes Page
+========================== */
+.classes-hero {
+    background: url('../images/classes-hero.png') center/cover no-repeat;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.classes-hero .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.classes-section {
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+}
+
+.classes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.class-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.class-card:hover {
+    transform: translateY(-5px);
+}
+
+.class-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.class-info {
+    padding: 1.5rem;
+}
+
+.class-info h3 {
+    margin-bottom: 0.5rem;
+    font-family: 'Lora', serif;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    background: #82b29a;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
 }
