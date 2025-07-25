@@ -79,7 +79,19 @@ a:hover {
 }
 
 /* =======================
-   Hero Section (Index)
+   Footer
+========================== */
+.site-footer {
+    background: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #888;
+    border-top: 1px solid #eee;
+}
+
+/* =======================
+   Index Page
 ========================== */
 .hero {
     background: url('../images/hero-yoga.png') center/cover no-repeat;
@@ -129,21 +141,6 @@ a:hover {
     transition: background 0.3s ease;
 }
 
-.btn:hover {
-    background: #6fa88b;
-}
-
-/* =======================
-   Intro Section
-========================== */
-.intro {
-    padding: 3rem 0;
-    text-align: center;
-}
-
-/* =======================
-   Quick Links
-========================== */
 .quick-links .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -165,16 +162,13 @@ a:hover {
     transform: translateY(-5px);
 }
 
-/* =======================
-   Footer
-========================== */
-.site-footer {
-    background: #fff;
+.btn:hover {
+    background: #6fa88b;
+}
+
+.intro {
+    padding: 3rem 0;
     text-align: center;
-    padding: 1rem 0;
-    font-size: 0.9rem;
-    color: #888;
-    border-top: 1px solid #eee;
 }
 
 /* =======================
