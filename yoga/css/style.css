@@ -313,3 +313,53 @@ a:hover {
     border-radius: 20px;
     font-size: 0.85rem;
 }
+
+/* =======================
+   How to Start  Page
+========================== */
+.howto-hero {
+    background: url('../images/howto-hero.jpg') center/cover no-repeat;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.howto-hero .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.howto-steps-section {
+    padding: 3rem 2rem;
+    background-color: #fffefc;
+}
+
+.howto-steps h3 {
+    font-family: 'Lora', serif;
+    margin-bottom: 1rem;
+}
+
+.howto-steps {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.howto-steps li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.pose-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pose-list li {
+    padding: 0.4rem 0;
+    font-size: 1.1rem;
+}
