@@ -255,7 +255,8 @@ const poses = [
             "core strength",
             "hip mobility"
         ],
-        "image": "ardha_chandrasana.jpg"
+        "image": "ardha_chandrasana.jpg",
+        "short_desc": "A standing pose that challenges balance and strengthens the core."
     },
     {
         "id": "dolphin_pose",
@@ -273,7 +274,8 @@ const poses = [
             "prepares for inversions",
             "core stability"
         ],
-        "image": "dolphin.jpg"
+        "image": "dolphin.jpg",
+        "short_desc": "A pose that strengthens the shoulders and builds stability."
     },
     {
         "id": "baddha_padmasana",
@@ -291,7 +293,8 @@ const poses = [
             "seated stability",
             "hip flexibility"
         ],
-        "image": "bound_lotus.jpg"
+        "image": "bound_lotus.jpg",
+        "short_desc": "An advanced seated pose that deeply stretches the hips."
     },
     {
         "id": "balasana",
@@ -309,7 +312,8 @@ const poses = [
             "stretches back",
             "reduces anxiety"
         ],
-        "image": "balasana.jpg"
+        "image": "balasana.jpg",
+        "short_desc": "A restorative pose that calms the body and mind."
     },
     {
         "id": "bakasana",
@@ -329,7 +333,8 @@ const poses = [
             "balance",
             "mental focus"
         ],
-        "image": "bakasana.jpg"
+        "image": "bakasana.jpg",
+        "short_desc": "A challenging arm balance that requires strength and focus."
     },
     {
         "id": "bhekasana",
@@ -347,7 +352,8 @@ const poses = [
             "opens front body",
             "enhances spinal flexibility"
         ],
-        "image": "bhekasana.jpg"
+        "image": "bhekasana.jpg",
+        "short_desc": "An intense backbend that stretches the thighs and chest."
     },
     {
         "id": "bhujangasana",
@@ -365,7 +371,8 @@ const poses = [
             "strengthens spine",
             "reduces fatigue"
         ],
-        "image": "bhujangasana.jpg"
+        "image": "bhujangasana.jpg",
+        "short_desc": "A gentle backbend that strengthens the spine and opens the chest."
     },
     {
         "id": "dhanurasana",
@@ -383,7 +390,8 @@ const poses = [
             "strengthens back",
             "stimulates abdominal organs"
         ],
-        "image": "dhanurasana.jpg"
+        "image": "dhanurasana.jpg",
+        "short_desc": "A backbend that opens the chest and stimulates the abdominal area."
     },
     {
         "id": "matsyasana",
@@ -401,7 +409,8 @@ const poses = [
             "stretches throat",
             "boosts energy"
         ],
-        "image": "matsyasana.jpg"
+        "image": "matsyasana.jpg",
+        "short_desc": "A heart-opening pose that energizes the body."
     },
     {
         "id": "navasana",
@@ -420,7 +429,8 @@ const poses = [
             "improves balance",
             "stimulates digestion"
         ],
-        "image": "navasana.jpg"
+        "image": "navasana.jpg",
+        "short_desc": "A core-strengthening pose that engages the entire body."
     },
     {
         "id": "padangusthasana",
@@ -437,7 +447,8 @@ const poses = [
             "improves digestion",
             "calms mind"
         ],
-        "image": "padangusthasana.jpg"
+        "image": "padangusthasana.jpg",
+        "short_desc": "A forward bend that stretches the legs and calms the mind."
     },
     {
         "id": "paschimottanasana",
@@ -455,7 +466,8 @@ const poses = [
             "calms nervous system",
             "improves focus"
         ],
-        "image": "paschimottanasana.jpg"
+        "image": "paschimottanasana.jpg",
+        "short_desc": "A seated forward bend that stretches the hamstrings and calms the mind."
     },
     {
         "id": "parsva_dhanurasana",
@@ -473,7 +485,8 @@ const poses = [
             "quad stretch",
             "shoulder open"
         ],
-        "image": "parsva_dhanurasana.jpg"
+        "image": "parsva_dhanurasana.jpg",
+        "short_desc": "A deep backbend that requires strength and flexibility."
     },
     {
         "id": "pose_hal20",
@@ -491,7 +504,8 @@ const poses = [
             "stimulates thyroid",
             "calms nervous system"
         ],
-        "image": "halasana.jpg"
+        "image": "halasana.jpg",
+        "short_desc": "A deep stretch for the spine that stimulates the thyroid."
     },
     {
         "id": "salamba_sarvangasana",
@@ -509,7 +523,8 @@ const poses = [
             "regulates thyroid",
             "calms nervous system"
         ],
-        "image": "shoulder_stand.jpg"
+        "image": "shoulder_stand.jpg",
+        "short_desc": "An inversion that boosts circulation and calms the mind."
     },
     {
         "id": "shirshasana",
@@ -517,17 +532,18 @@ const poses = [
         "english": "Headstand",
         "level": "advanced",
         "steps": [
-            "Place forearms and crown on floor",
-            "Lift hips, walk feet forward",
-            "Lift legs up",
-            "Balance"
+            "Place head on mat, support with forearms",
+            "Lift legs off the floor",
+            "Balance vertically",
+            "Hold"
         ],
         "benefits": [
+            "strengthens core",
             "improves circulation",
-            "core strength",
-            "mental clarity"
+            "boosts mental clarity"
         ],
-        "image": "headstand.jpg"
+        "image": "headstand.jpg",
+        "short_desc": "A powerful inversion that boosts mental clarity and strengthens the core."
     },
     {
         "id": "tadasana",
@@ -541,11 +557,12 @@ const poses = [
             "Breathe steadily"
         ],
         "benefits": [
-            "improves posture",
-            "enhances balance",
-            "calms mind"
+            "Improves posture",
+            "Enhances balance",
+            "Calms mind"
         ],
-        "image": "tadasana.jpg"
+        "image": "tadasana.jpg",
+        "short_desc": "A foundational standing pose that promotes alignment and balance."
     },
     {
         "id": "uttanasana",
@@ -559,14 +576,15 @@ const poses = [
             "Relax neck and shoulders"
         ],
         "benefits": [
-            "stretches hamstrings",
-            "calms mind",
-            "relieves stress"
+            "Stretches hamstrings",
+            "Calms mind",
+            "Relieves stress"
         ],
-        "image": "uttanasana.jpg"
+        "image": "uttanasana.jpg",
+        "short_desc": "A forward bend that stretches the back and calms the mind."
     },
     {
-        "id": "utrabhadrasana2",
+        "id": "virabhadrasana_ii",
         "name": "Virabhadrasana II",
         "english": "Warrior II Pose",
         "level": "intermediate",
@@ -577,11 +595,12 @@ const poses = [
             "Gaze over front hand"
         ],
         "benefits": [
-            "strengthens legs",
-            "improves focus",
-            "opens hips"
+            "Strengthens legs",
+            "Improves focus",
+            "Opens hips"
         ],
-        "image": "virabhadrasana_ii.jpg"
+        "image": "virabhadrasana_ii.jpg",
+        "short_desc": "A powerful pose that builds strength and focus."
     },
     {
         "id": "virasana",
@@ -595,29 +614,31 @@ const poses = [
             "Hands on thighs, breathe deeply"
         ],
         "benefits": [
-            "aligns spine",
-            "calms mind",
-            "deepens meditation seating"
+            "Aligns spine",
+            "Calms mind",
+            "Deepens meditation seating"
         ],
-        "image": "virasana.jpg"
+        "image": "virasana.jpg",
+        "short_desc": "A seated pose that promotes meditation and spine alignment."
     },
     {
         "id": "viparita_karani",
         "name": "Viparita Karani",
-        "english": "Legs‑Up‑the‑Wall Pose",
+        "english": "Legs-Up-the-Wall Pose",
         "level": "beginner",
         "steps": [
             "Lie on back with hips near wall",
             "Extend legs vertically up wall",
             "Relax arms by sides",
-            "Breathe and hold 5–20 min"
+            "Breathe and hold 5–20 minutes"
         ],
         "benefits": [
-            "improves circulation",
-            "calms mind",
-            "reduces swelling and anxiety"
+            "Improves circulation",
+            "Calms mind",
+            "Reduces swelling and anxiety"
         ],
-        "image": "viparita_karani.jpg"
+        "image": "viparita_karani.jpg",
+        "short_desc": "An inversion pose that helps relax the body and improve circulation."
     },
     {
         "id": "vrikshasana",
@@ -625,17 +646,18 @@ const poses = [
         "english": "Tree Pose",
         "level": "beginner",
         "steps": [
-            "Stand on one leg",
+            "Stand on one foot",
             "Place foot on inner thigh",
             "Bring hands to prayer",
             "Hold and breathe"
         ],
         "benefits": [
-            "improves balance",
-            "strengthens legs",
-            "enhances focus"
+            "Improves balance",
+            "Strengthens legs",
+            "Enhances focus"
         ],
-        "image": "vrikshasana.jpg"
+        "image": "vrikshasana.jpg",
+        "short_desc": "A balancing pose that develops focus and stability."
     },
     {
         "id": "vrischikasana",
@@ -649,11 +671,12 @@ const poses = [
             "Engage core and breathe"
         ],
         "benefits": [
-            "backbend strength",
-            "balance",
-            "flexibility"
+            "Backbend strength",
+            "Balance",
+            "Flexibility"
         ],
-        "image": "vrischikasana.jpg"
+        "image": "vrischikasana.jpg",
+        "short_desc": "A challenging inversion that requires flexibility and balance."
     },
     {
         "id": "vrischikasana_handstand",
@@ -667,11 +690,12 @@ const poses = [
             "Balance"
         ],
         "benefits": [
-            "upper body strength",
-            "flexibility",
-            "focus"
+            "Upper body strength",
+            "Flexibility",
+            "Focus"
         ],
-        "image": "handstand_scorpion.jpg"
+        "image": "handstand_scorpion.jpg",
+        "short_desc": "A handstand variation that challenges both strength and flexibility."
     },
     {
         "id": "trikonasana",
@@ -686,11 +710,12 @@ const poses = [
             "Hold and breathe"
         ],
         "benefits": [
-            "stretches hips and legs",
-            "aids digestion",
-            "improves balance"
+            "Stretches hips and legs",
+            "Aids digestion",
+            "Improves balance"
         ],
-        "image": "trikonasana.jpg"
+        "image": "trikonasana.jpg",
+        "short_desc": "A standing pose that stretches the sides and improves balance."
     },
     {
         "id": "natarajasana",
@@ -704,11 +729,12 @@ const poses = [
             "Reach forward with other arm and arch spine"
         ],
         "benefits": [
-            "balance",
-            "back flexibility",
-            "mental focus"
+            "Balance",
+            "Back flexibility",
+            "Mental focus"
         ],
-        "image": "natarajasana.jpg"
+        "image": "natarajasana.jpg",
+        "short_desc": "A graceful balance pose that opens the chest and stretches the spine."
     },
     {
         "id": "urdhva_dhanurasana",
@@ -723,11 +749,12 @@ const poses = [
             "Engage limbs"
         ],
         "benefits": [
-            "opens chest",
-            "strengthens spine",
-            "boosts energy"
+            "Opens chest",
+            "Strengthens spine",
+            "Boosts energy"
         ],
-        "image": "urdhva_dhanurasana.jpg"
+        "image": "urdhva_dhanurasana.jpg",
+        "short_desc": "A deep backbend that stretches the chest and strengthens the spine."
     },
     {
         "id": "utkatasana",
@@ -742,14 +769,15 @@ const poses = [
             "Hold"
         ],
         "benefits": [
-            "strengthens legs",
-            "tones core",
-            "stimulates heart"
+            "Strengthens legs",
+            "Tones core",
+            "Stimulates heart"
         ],
-        "image": "utkatasana.jpg"
+        "image": "utkatasana.jpg",
+        "short_desc": "A strong pose that targets the legs and core."
     },
     {
-        "id": "vadharasana",
+        "id": "ustrasana",
         "name": "Ustrasana",
         "english": "Camel Pose",
         "level": "intermediate",
@@ -760,12 +788,16 @@ const poses = [
             "Hold"
         ],
         "benefits": [
-            "opens chest and abdomen",
-            "strengthens back",
-            "improves posture"
+            "Opens chest and abdomen",
+            "Strengthens back",
+            "Improves posture"
         ],
-        "image": "ustrasana.jpg"
-    }];
+        "image": "ustrasana.jpg",
+        "short_desc": "A backbend that opens the chest and stretches the front of the body."
+    }
+
+];
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('types-container');
@@ -821,4 +853,42 @@ function showModal(type) {
     `;
 
     modal.classList.remove('hidden');
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('poses-container');
+
+    poses.forEach(pose => {
+        const card = document.createElement('div');
+        card.className = 'pose-card';
+        card.innerHTML = `
+      <img src="images/${pose.image}" alt="${pose.name}">
+      <h3>${pose.name}</h3>
+      <p>${pose.short_desc}</p>
+    `;
+        card.addEventListener('click', () => showPoseModal(pose));
+        container.appendChild(card);
+    });
+
+    const modal = document.getElementById('pose-modal');
+    const closeBtn = modal.querySelector('.close-btn');
+    closeBtn.addEventListener('click', () => modal.classList.add('hidden'));
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) modal.classList.add('hidden');
+    });
+});
+
+function showPoseModal(pose) {
+    const modalBody = document.getElementById('pose-modal-body');
+    modalBody.innerHTML = `
+    <h2>${pose.name}</h2>
+    <img src="images/${pose.image}" alt="${pose.name}" style="max-width: 100%;">
+    <p><strong>Level:</strong> ${pose.level}</p>
+    <h4>Benefits</h4>
+    <ul>${pose.benefits.map(b => `<li>${b}</li>`).join('')}</ul>
+    <h4>Steps</h4>
+    <ol>${pose.steps.map(s => `<li>${s}</li>`).join('')}</ol>
+  `;
+    document.getElementById('pose-modal').classList.remove('hidden');
 }

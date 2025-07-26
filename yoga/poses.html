@@ -18,7 +18,7 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="types.html">Yoga Types</a></li>
+                    <li><a href="types.html">Types</a></li>
                     <li><a href="poses.html" class="active">Poses</a></li>
                     <li><a href="how-to.html">How to Start</a></li>
                     <li><a href="classes.html">Classes</a></li>
@@ -28,7 +28,27 @@
         </div>
     </header>
 
-    
+    <!-- Hero -->
+    <section class="poses-hero">
+        <div class="overlay">
+            <h2>Yoga Poses Library</h2>
+            <p>Learn each posture with clarity and purpose</p>
+        </div>
+    </section>
+
+    <!-- Poses Grid -->
+    <section class="poses-section">
+        <div class="container poses-grid" id="poses-container"></div>
+    </section>
+
+    <!-- Modal -->
+    <div id="pose-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="pose-modal-body"></div>
+        </div>
+    </div>
+
 
     <!-- Footer -->
     <footer class="site-footer">
@@ -36,6 +56,8 @@
             <p>&copy; 2025 Yoga Bliss. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 
