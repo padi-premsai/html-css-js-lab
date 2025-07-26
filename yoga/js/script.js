@@ -238,6 +238,535 @@ const types = [
     }
 ];
 
+const poses = [
+    {
+        "id": "ardha_chandrasana",
+        "name": "Ardha Chandrasana",
+        "english": "Half Moon Pose",
+        "level": "intermediate",
+        "steps": [
+            "From Warrior II shift weight to front foot",
+            "Place hand on block",
+            "Lift back leg horizontally",
+            "Extend opposite arm up"
+        ],
+        "benefits": [
+            "balance",
+            "core strength",
+            "hip mobility"
+        ],
+        "image": "ardha_chandrasana.jpg"
+    },
+    {
+        "id": "dolphin_pose",
+        "name": "Ardha Pincha Mayurasana",
+        "english": "Dolphin Pose",
+        "level": "intermediate",
+        "steps": [
+            "From Downward Dog lower forearms",
+            "Keep hips high",
+            "Walk feet closer",
+            "Hold and breathe"
+        ],
+        "benefits": [
+            "shoulder strength",
+            "prepares for inversions",
+            "core stability"
+        ],
+        "image": "dolphin.jpg"
+    },
+    {
+        "id": "baddha_padmasana",
+        "name": "Baddha Padmasana",
+        "english": "Bound Lotus Pose",
+        "level": "advanced",
+        "steps": [
+            "Sit in Padmasana",
+            "Bind arms around back",
+            "Join hands",
+            "Hold back upright and breathe"
+        ],
+        "benefits": [
+            "deep stretch",
+            "seated stability",
+            "hip flexibility"
+        ],
+        "image": "bound_lotus.jpg"
+    },
+    {
+        "id": "balasana",
+        "name": "Balasana",
+        "english": "Child’s Pose",
+        "level": "beginner",
+        "steps": [
+            "Kneel and sit on heels",
+            "Fold forward over thighs",
+            "Extend arms forward or by sides",
+            "Rest forehead and breathe"
+        ],
+        "benefits": [
+            "calms nervous system",
+            "stretches back",
+            "reduces anxiety"
+        ],
+        "image": "balasana.jpg"
+    },
+    {
+        "id": "bakasana",
+        "name": "Bakasana",
+        "english": "Crow Pose",
+        "level": "advanced",
+        "steps": [
+            "Squat down",
+            "Place palms on floor shoulder‑width",
+            "Lean forward",
+            "Balance knees on upper arms",
+            "Lift feet off ground",
+            "Hold"
+        ],
+        "benefits": [
+            "arm strength",
+            "balance",
+            "mental focus"
+        ],
+        "image": "bakasana.jpg"
+    },
+    {
+        "id": "bhekasana",
+        "name": "Bhekasana",
+        "english": "Frog Pose",
+        "level": "advanced",
+        "steps": [
+            "Lie face down",
+            "Reach back, grab feet, press down",
+            "Lift chest and gaze up",
+            "Hold"
+        ],
+        "benefits": [
+            "stretches thighs",
+            "opens front body",
+            "enhances spinal flexibility"
+        ],
+        "image": "bhekasana.jpg"
+    },
+    {
+        "id": "bhujangasana",
+        "name": "Bhujangasana",
+        "english": "Cobra Pose",
+        "level": "beginner",
+        "steps": [
+            "Lie on belly",
+            "Place hands under shoulders",
+            "Inhale and lift chest",
+            "Keep elbows bent"
+        ],
+        "benefits": [
+            "opens chest",
+            "strengthens spine",
+            "reduces fatigue"
+        ],
+        "image": "bhujangasana.jpg"
+    },
+    {
+        "id": "dhanurasana",
+        "name": "Dhanurasana",
+        "english": "Bow Pose",
+        "level": "intermediate",
+        "steps": [
+            "Lie on belly",
+            "Reach back to grab ankles",
+            "Inhale and lift chest and legs",
+            "Hold and breathe"
+        ],
+        "benefits": [
+            "opens chest & shoulders",
+            "strengthens back",
+            "stimulates abdominal organs"
+        ],
+        "image": "dhanurasana.jpg"
+    },
+    {
+        "id": "matsyasana",
+        "name": "Matsyasana",
+        "english": "Fish Pose",
+        "level": "intermediate",
+        "steps": [
+            "Lie on back",
+            "Arch chest up with crown touching floor",
+            "Support with elbows",
+            "Breathe"
+        ],
+        "benefits": [
+            "opens chest",
+            "stretches throat",
+            "boosts energy"
+        ],
+        "image": "matsyasana.jpg"
+    },
+    {
+        "id": "navasana",
+        "name": "Paripurna Navasana",
+        "english": "Boat Pose",
+        "level": "intermediate",
+        "steps": [
+            "Sit with legs bent",
+            "Lean back slightly",
+            "Lift legs and spine into V",
+            "Extend arms forward",
+            "Hold"
+        ],
+        "benefits": [
+            "strengthens core",
+            "improves balance",
+            "stimulates digestion"
+        ],
+        "image": "navasana.jpg"
+    },
+    {
+        "id": "padangusthasana",
+        "name": "Padangusthasana",
+        "english": "Big Toe Pose",
+        "level": "intermediate",
+        "steps": [
+            "Stand and fold forward",
+            "Hold big toes",
+            "Lengthen spine and breathe"
+        ],
+        "benefits": [
+            "hamstring & calf stretch",
+            "improves digestion",
+            "calms mind"
+        ],
+        "image": "padangusthasana.jpg"
+    },
+    {
+        "id": "paschimottanasana",
+        "name": "Paschimottanasana",
+        "english": "Seated Forward Bend",
+        "level": "beginner",
+        "steps": [
+            "Sit with legs straight",
+            "Inhale lengthen spine",
+            "Exhale fold forward",
+            "Hold and breathe"
+        ],
+        "benefits": [
+            "stretches hamstrings",
+            "calms nervous system",
+            "improves focus"
+        ],
+        "image": "paschimottanasana.jpg"
+    },
+    {
+        "id": "parsva_dhanurasana",
+        "name": "Parsva Dhanurasana",
+        "english": "Side Bow Pose",
+        "level": "advanced",
+        "steps": [
+            "Seated → bend knee toward glute",
+            "Grab foot and kick into hand",
+            "Extend other arm overhead",
+            "Balance and breathe"
+        ],
+        "benefits": [
+            "core strength",
+            "quad stretch",
+            "shoulder open"
+        ],
+        "image": "parsva_dhanurasana.jpg"
+    },
+    {
+        "id": "pose_hal20",
+        "name": "Halasana",
+        "english": "Plow Pose",
+        "level": "intermediate",
+        "steps": [
+            "Lie on back",
+            "Lift legs overhead toward floor behind head",
+            "Support back with hands",
+            "Hold"
+        ],
+        "benefits": [
+            "stretches spine",
+            "stimulates thyroid",
+            "calms nervous system"
+        ],
+        "image": "halasana.jpg"
+    },
+    {
+        "id": "salamba_sarvangasana",
+        "name": "Salamba Sarvangasana",
+        "english": "Shoulder Stand",
+        "level": "intermediate",
+        "steps": [
+            "Lie on back",
+            "Lift legs overhead",
+            "Support back with hands",
+            "Stack hips over shoulders"
+        ],
+        "benefits": [
+            "boosts circulation",
+            "regulates thyroid",
+            "calms nervous system"
+        ],
+        "image": "shoulder_stand.jpg"
+    },
+    {
+        "id": "shirshasana",
+        "name": "Salamba Shirshasana",
+        "english": "Headstand",
+        "level": "advanced",
+        "steps": [
+            "Place forearms and crown on floor",
+            "Lift hips, walk feet forward",
+            "Lift legs up",
+            "Balance"
+        ],
+        "benefits": [
+            "improves circulation",
+            "core strength",
+            "mental clarity"
+        ],
+        "image": "headstand.jpg"
+    },
+    {
+        "id": "tadasana",
+        "name": "Tadasana",
+        "english": "Mountain Pose",
+        "level": "beginner",
+        "steps": [
+            "Stand tall with feet together",
+            "Distribute weight evenly",
+            "Relax shoulders",
+            "Breathe steadily"
+        ],
+        "benefits": [
+            "improves posture",
+            "enhances balance",
+            "calms mind"
+        ],
+        "image": "tadasana.jpg"
+    },
+    {
+        "id": "uttanasana",
+        "name": "Uttanasana",
+        "english": "Standing Forward Bend",
+        "level": "beginner",
+        "steps": [
+            "Stand tall",
+            "Hinge at hips",
+            "Fold forward",
+            "Relax neck and shoulders"
+        ],
+        "benefits": [
+            "stretches hamstrings",
+            "calms mind",
+            "relieves stress"
+        ],
+        "image": "uttanasana.jpg"
+    },
+    {
+        "id": "utrabhadrasana2",
+        "name": "Virabhadrasana II",
+        "english": "Warrior II Pose",
+        "level": "intermediate",
+        "steps": [
+            "Feet wide, front turned out",
+            "Bend front knee",
+            "Arms extended horizontally",
+            "Gaze over front hand"
+        ],
+        "benefits": [
+            "strengthens legs",
+            "improves focus",
+            "opens hips"
+        ],
+        "image": "virabhadrasana_ii.jpg"
+    },
+    {
+        "id": "virasana",
+        "name": "Virasana",
+        "english": "Hero Pose",
+        "level": "intermediate",
+        "steps": [
+            "Kneel with knees together",
+            "Sit between heels",
+            "Lengthen spine",
+            "Hands on thighs, breathe deeply"
+        ],
+        "benefits": [
+            "aligns spine",
+            "calms mind",
+            "deepens meditation seating"
+        ],
+        "image": "virasana.jpg"
+    },
+    {
+        "id": "viparita_karani",
+        "name": "Viparita Karani",
+        "english": "Legs‑Up‑the‑Wall Pose",
+        "level": "beginner",
+        "steps": [
+            "Lie on back with hips near wall",
+            "Extend legs vertically up wall",
+            "Relax arms by sides",
+            "Breathe and hold 5–20 min"
+        ],
+        "benefits": [
+            "improves circulation",
+            "calms mind",
+            "reduces swelling and anxiety"
+        ],
+        "image": "viparita_karani.jpg"
+    },
+    {
+        "id": "vrikshasana",
+        "name": "Vrikshasana",
+        "english": "Tree Pose",
+        "level": "beginner",
+        "steps": [
+            "Stand on one leg",
+            "Place foot on inner thigh",
+            "Bring hands to prayer",
+            "Hold and breathe"
+        ],
+        "benefits": [
+            "improves balance",
+            "strengthens legs",
+            "enhances focus"
+        ],
+        "image": "vrikshasana.jpg"
+    },
+    {
+        "id": "vrischikasana",
+        "name": "Vrischikasana",
+        "english": "Scorpion Pose",
+        "level": "advanced",
+        "steps": [
+            "Forearm balance with lifted legs",
+            "Arch back deeply",
+            "Support body with forearms",
+            "Engage core and breathe"
+        ],
+        "benefits": [
+            "backbend strength",
+            "balance",
+            "flexibility"
+        ],
+        "image": "vrischikasana.jpg"
+    },
+    {
+        "id": "vrischikasana_handstand",
+        "name": "Handstand Scorpion",
+        "english": "Handstand Scorpion Pose",
+        "level": "advanced",
+        "steps": [
+            "Enter handstand",
+            "Bend knees and arch legs down toward head",
+            "Engage core",
+            "Balance"
+        ],
+        "benefits": [
+            "upper body strength",
+            "flexibility",
+            "focus"
+        ],
+        "image": "handstand_scorpion.jpg"
+    },
+    {
+        "id": "trikonasana",
+        "name": "Trikonasana",
+        "english": "Triangle Pose",
+        "level": "beginner",
+        "steps": [
+            "Stand wide",
+            "Reach front hand down to shin or block",
+            "Extend back arm up",
+            "Gaze up",
+            "Hold and breathe"
+        ],
+        "benefits": [
+            "stretches hips and legs",
+            "aids digestion",
+            "improves balance"
+        ],
+        "image": "trikonasana.jpg"
+    },
+    {
+        "id": "natarajasana",
+        "name": "Natarajasana",
+        "english": "Dancer Pose",
+        "level": "advanced",
+        "steps": [
+            "Stand in Tadasana",
+            "Grab back foot",
+            "Lift and extend leg back",
+            "Reach forward with other arm and arch spine"
+        ],
+        "benefits": [
+            "balance",
+            "back flexibility",
+            "mental focus"
+        ],
+        "image": "natarajasana.jpg"
+    },
+    {
+        "id": "urdhva_dhanurasana",
+        "name": "Urdhva Dhanurasana",
+        "english": "Wheel Pose",
+        "level": "advanced",
+        "steps": [
+            "Lie on back",
+            "Feet close to glutes",
+            "Hands by ears",
+            "Press up into backbend",
+            "Engage limbs"
+        ],
+        "benefits": [
+            "opens chest",
+            "strengthens spine",
+            "boosts energy"
+        ],
+        "image": "urdhva_dhanurasana.jpg"
+    },
+    {
+        "id": "utkatasana",
+        "name": "Utkatasana",
+        "english": "Chair Pose",
+        "level": "intermediate",
+        "steps": [
+            "Stand tall",
+            "Bend knees and sink hips back",
+            "Raise arms overhead",
+            "Keep weight in heels",
+            "Hold"
+        ],
+        "benefits": [
+            "strengthens legs",
+            "tones core",
+            "stimulates heart"
+        ],
+        "image": "utkatasana.jpg"
+    },
+    {
+        "id": "vadharasana",
+        "name": "Ustrasana",
+        "english": "Camel Pose",
+        "level": "intermediate",
+        "steps": [
+            "Kneel",
+            "Place hands on lower back or heels",
+            "Arch back and drop head",
+            "Hold"
+        ],
+        "benefits": [
+            "opens chest and abdomen",
+            "strengthens back",
+            "improves posture"
+        ],
+        "image": "ustrasana.jpg"
+    }];
+
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('types-container');
 
